@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CreatingTypes.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:CreatingTypes.Tests.CreatingTypesTests">
+            <summary>
+            Tests of <see cref="T:CreatingTypes.CreatingTypes"/> methods
+            </summary>
+        </member>
+        <member name="M:CreatingTypes.Tests.CreatingTypesTests.FindNthRoot_Test(System.Double,System.Int32,System.Double)">
+            <summary>
+            Test of <see cref="M:CreatingTypes.CreatingTypes.FindNthRoot(System.Double,System.Int32,System.Double)"/> method
+            </summary>
+            <param name="number">Real number</param>
+            <param name="degree">Natural number</param>
+            <param name="precision">Needed precision</param>
+            <returns>Root of number with given precision</returns>
+        </member>
+        <member name="M:CreatingTypes.Tests.CreatingTypesTests.FindNthRoot_Number_Degree_Precision_ArgumentOutOfRangeException(System.Double,System.Int32,System.Double)">
+            <summary>
+            Test of <see cref="M:CreatingTypes.CreatingTypes.FindNthRoot(System.Double,System.Int32,System.Double)"/> method
+            </summary>
+            <param name="number">Real number</param>
+            <param name="degree">Natural number</param>
+            <param name="precision">Needed precision</param>
+        </member>
+        <member name="M:CreatingTypes.Tests.CreatingTypesTests.BubbleSortBySum_ReturnsSortedMatrix">
+            <summary>
+            Test of <see cref="M:CreatingTypes.CreatingTypes.BubbleSortBySum(System.Int32[0:,0:],System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="M:CreatingTypes.Tests.CreatingTypesTests.BubbleSortByMin_ReturnsSortedMatrix">
+            <summary>
+            Test of <see cref="M:CreatingTypes.CreatingTypes.BubbleSortByMin(System.Int32[0:,0:],System.Boolean)"/>
+            </summary>
+        </member>
+        <member name="M:CreatingTypes.Tests.CreatingTypesTests.BubbleSortByMax_ReturnsSortedMatrix">
+            <summary>
+            Test of <see cref="M:CreatingTypes.CreatingTypes.BubbleSortByMax(System.Int32[0:,0:],System.Boolean)"/>
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CreatingTypes</name>
+    </assembly>
+    <members>
+        <member name="T:CreatingTypes.CreatingTypes">
+            <summary>
+            The Class that holds realizations of given Tasks from EPAM
+            Theme: Creating Types
+            </summary>
+        </member>
+        <member name="M:CreatingTypes.CreatingTypes.FindNthRoot(System.Double,System.Int32,System.Double)">
+            <summary>
+            Get root of Natural number 'degree' from a Real number 'number' with given 'precision' by using Newton's method
+            </summary>
+            <param name="a">Real number</param>
+            <param name="n">Natural number</param>
+            <param name="precision">Needed precision. Must be less than 1</param>
+            <exception cref="T:System.ArgumentException">Value does not fall within the expected range.</exception>
+            <returns>Root of number with given precision</returns>
+        </member>
+        <member name="M:CreatingTypes.CreatingTypes.BubbleSortBySum(System.Int32[0:,0:],System.Boolean)">
+            <summary>
+            Bubbly sorts given 2D array by the Sum of the elements of lines of matrix
+            </summary>
+            <inheritdoc cref="M:CreatingTypes.CreatingTypes.BubbleSort(System.Int32[0:,0:],System.Func{System.Int32,System.Int32},System.Boolean)"/>
+        </member>
+        <member name="M:CreatingTypes.CreatingTypes.BubbleSortByMin(System.Int32[0:,0:],System.Boolean)">
+            <summary>
+            Bubbly sorts given 2D array by the Minimum of the elements of lines of matrix
+            </summary>
+            <inheritdoc cref="M:CreatingTypes.CreatingTypes.BubbleSort(System.Int32[0:,0:],System.Func{System.Int32,System.Int32},System.Boolean)"/>
+        </member>
+        <member name="M:CreatingTypes.CreatingTypes.BubbleSortByMax(System.Int32[0:,0:],System.Boolean)">
+            <summary>
+            Bubbly sorts given 2D array by the Maximum of the elements of lines of matrix
+            </summary>
+            <inheritdoc cref="M:CreatingTypes.CreatingTypes.BubbleSort(System.Int32[0:,0:],System.Func{System.Int32,System.Int32},System.Boolean)"/>
+        </member>
+        <member name="M:CreatingTypes.CreatingTypes.BubbleSort(System.Int32[0:,0:],System.Func{System.Int32,System.Int32},System.Boolean)">
+            <summary>
+            Default Bubble sorter
+            Sorts array with the given method
+            </summary>
+            <param name="array">Array to sort</param>
+            <param name="result">Gets the values to the comparisons</param>
+            <param name="increasing">Should program sort by increasing? Default = true</param>
+        </member>
+    </members>
+</doc>
